@@ -1,0 +1,24 @@
+﻿Build started 4/27/2017 1:30:47 AM.
+     1>Project "G:\Git\Polygon\Polygon.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Polygon.cpp main.cpp
+         main.cpp
+     1>g:\git\polygon\main.cpp(111): warning C4018: '<': signed/unsigned mismatch
+     1>g:\git\polygon\main.cpp(127): warning C4309: 'argument': truncation of constant value
+     1>g:\git\polygon\main.cpp(130): warning C4309: 'argument': truncation of constant value
+     1>g:\git\polygon\main.cpp(133): warning C4309: 'argument': truncation of constant value
+     1>g:\git\polygon\main.cpp(136): warning C4309: 'argument': truncation of constant value
+     1>g:\git\polygon\main.cpp(139): warning C4309: 'argument': truncation of constant value
+     1>g:\git\polygon\main.cpp(142): warning C4309: 'argument': truncation of constant value
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         Polygon.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Git\Polygon\Debug\Polygon.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\Git\Polygon\Debug\Polygon.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Git\Polygon\Debug\Polygon.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Polygon.obj
+         Polygon.vcxproj -> G:\Git\Polygon\Debug\Polygon.exe
+     1>Done Building Project "G:\Git\Polygon\Polygon.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.20
